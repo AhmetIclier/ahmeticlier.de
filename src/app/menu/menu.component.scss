@@ -3,11 +3,12 @@ header {
     top: 0;
     left: 0;
     z-index: 2;
-    
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    padding: 10px 20px;
+    box-sizing: border-box;
 
     img {
         width: 50px;
@@ -15,12 +16,17 @@ header {
 
     div {
         display: flex;
-        gap: 10px;
+        gap: 20px;
 
         a {
             text-decoration: none;
-            color: black;
+            color: white;
             font-size: 2rem;
+            &:hover {
+                cursor: pointer;
+                color: rgb(212, 98, 98);
+                transition: all 100ms ease-in-out;
+            }
         }
 
     }
