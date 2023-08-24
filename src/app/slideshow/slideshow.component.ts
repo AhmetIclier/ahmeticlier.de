@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./slideshow.component.scss']
 })
 export class SlideshowComponent implements OnInit {
-  imgs = ['r1.png', 'r2.png', 'r3.png',];
+  imgs = ['r1.jpg', 'r2.jpg', 'r3.jpg',];
   headlines = [
     'I\'m just a Guy writing HTML',
     'I\'m just a Guy writing CSS',
